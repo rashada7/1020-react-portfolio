@@ -24,7 +24,7 @@ const Login = () => {
             alert("Invalid Login")
         } else {
             
-            alert("sucess")
+            alert("Login Successful!")
             sessionStorage.setItem('token', payload.token)
             //
             let { from } = location.state || { from: { pathname: "/" } };
