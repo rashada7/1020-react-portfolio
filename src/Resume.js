@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Zoom } from "react-awesome-reveal";
 
 
-const programmingSkills = ["NodeJS", "ReactJS", "PHP", "ASP.NET", "Java", "mySQL", "Photoshop", "Illustrator", "Microsoft Offce", "Wordpress"];
+const programmingSkills = ["NodeJS", "ReactJS", "PHP", "ASP.NET", "Java", "mySQL", "Photoshop", "Illustrator", "MS Offce", "Wordpress"];
 
 const experience = [
   {
@@ -54,7 +54,7 @@ const experience = [
 const education = [
   {
     id: 1,
-    school: "York University - School of Continuing Studies",
+    school: "York University",
     program: "Full Stack Development",
     type: "Certificate",
     year: "2020-2021 (In Progress)"
@@ -94,8 +94,8 @@ class Resume extends Component {
       
       
       
-        <div class="container"><h1>Resume</h1></div>
-        <Zoom cascade triggerOnce>
+      <h1>Resume</h1>
+        
         <div class = "container">
         <h2>Areas of Knowledge </h2>
         
@@ -169,7 +169,7 @@ class Resume extends Component {
                   );
                   })}
         </div>
-        </Zoom>
+        
         
         <br />
         
